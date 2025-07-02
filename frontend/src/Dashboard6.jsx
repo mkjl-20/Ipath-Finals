@@ -69,7 +69,7 @@ const handleSubmit = async e => {
         </form>
         {response && <p>{response}</p>}
 
-<Container>
+
       <Button
         style= {{ marginTop: '20px'}}
         variant="contained"
@@ -83,7 +83,6 @@ const handleSubmit = async e => {
       >
         Logout
       </Button>
-    </Container>
     </div>
   );
 };

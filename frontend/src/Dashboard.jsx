@@ -50,7 +50,6 @@ const handleSubmit = async e => {
 
   return (
     <div>
-      <Container>
       <Typography variant="h4">
               Welcome {userRole} {user}
             </Typography>
@@ -86,7 +85,6 @@ const handleSubmit = async e => {
       >
         Logout
       </Button>
-    </Container>
     </div>
   );
 };
